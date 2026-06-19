@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://claemaxieit.github.io/zh-ssl-xksports-com/sitemap.xml

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星空体育app · 简介</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f8f7f5;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 2rem 1.25rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .page {
+            max-width: 680px;
+            width: 100%;
+        }
+
+        /* 开场微标 */
+        .prelude {
+            font-size: 0.825rem;
+            letter-spacing: 0.04em;
+            color: #8f8b85;
+            margin-bottom: 2.5rem;
+            border-left: 2px solid #d6d2cd;
+            padding-left: 1.2rem;
+        }
+
+        .prelude span {
+            display: block;
+        }
+
+        /* 标题 */
+        h1 {
+            font-weight: 500;
+            font-size: 2rem;
+            letter-spacing: -0.01em;
+            margin-bottom: 1.2rem;
+            color: #1c1b1a;
+        }
+
+        h1 small {
+            display: block;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #7f7a74;
+            margin-top: 0.4rem;
+            letter-spacing: 0.02em;
+        }
+
+        h2 {
+            font-weight: 450;
+            font-size: 1.3rem;
+            margin: 2.8rem 0 1.2rem 0;
+            color: #242220;
+            border-bottom: 1px solid #e3dfda;
+            padding-bottom: 0.35rem;
+        }
+
+        /* 正文 */
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1rem;
+            color: #2a2826;
+        }
+
+        a {
+            color: #1e3c4f;
+            text-decoration: none;
+            border-bottom: 1px solid #cbd8e0;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        a:hover {
+            color: #0f2837;
+            border-bottom-color: #0f2837;
+        }
+
+        /* 特点列表 — 极简卡片 */
+        .feature-grid {
+            list-style: none;
+            margin: 1.8rem 0 2rem 0;
+        }
+
+        .feature-grid li {
+            background: #ffffff;
+            padding: 1rem 1.25rem;
+            margin-bottom: 0.75rem;
+            border: 1px solid #eae7e2;
+            border-radius: 6px;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.85rem;
+        }
+
+        .feature-grid li::before {
+            content: "—";
+            color: #b0aaa3;
+            font-weight: 300;
+            flex-shrink: 0;
+            line-height: 1.7;
+        }
+
+        .feature-grid li strong {
+            font-weight: 500;
+            color: #1e2c36;
+        }
+
+        .feature-grid li .desc {
+            color: #3e3a36;
+        }
+
+        /* 引用 / 场景短段 */
+        .scene-note {
+            background: #f2efeb;
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0 1.8rem 0;
+            font-size: 0.95rem;
+            color: #2b2824;
+            border-left: 3px solid #b8b0a7;
+        }
+
+        .scene-note em {
+            font-style: italic;
+            color: #35302b;
+        }
+
+        /* FAQ 摘要（极简问句） */
+        .faq-mini {
+            margin: 2.5rem 0 1.5rem 0;
+            border-top: 1px solid #e3dfda;
+            padding-top: 1.5rem;
+        }
+
+        .faq-mini dt {
+            font-weight: 450;
+            margin-bottom: 0.3rem;
+            color: #24211e;
+            font-size: 1rem;
+        }
+
+        .faq-mini dd {
+            margin-bottom: 1.1rem;
+            color: #4b4640;
+            font-size: 0.95rem;
+            padding-left: 0.6rem;
+            border-left: 1px solid #dedad4;
+        }
+
+        /* 温和结尾 */
+        .closing {
+            margin: 3rem 0 1.5rem 0;
+            padding-top: 1rem;
+            border-top: 1px solid #e3dfda;
+            font-size: 0.9rem;
+            color: #6b6560;
+            text-align: center;
+        }
+
+        .closing a {
+            border-bottom: 1px solid #c6c0ba;
+        }
+
+        /* 响应式 */
+        @media (max-width: 480px) {
+            body {
+                padding: 1.5rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .feature-grid li {
+                padding: 0.9rem 1rem;
+                flex-wrap: wrap;
+            }
+
+            .scene-note {
+                padding: 1rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+
+        <div class="prelude">
+            <span>一个简洁的起点</span>
+            <span>—— 用于快速理解这个网站</span>
+        </div>
+
+        <h1>
+            星空体育app
+            <small>一个提供综合体育资讯与互动体验的平台</small>
+        </h1>
+
+        <p>
+            当你第一次进入某个体育类网站，往往需要花一些时间才能弄清它的定位：是赛程查询，还是数据统计？是社区讨论，还是赛事直播？而<a href="https://zh-ssl-xksports.com">星空体育app</a>则希望将这几条线索融合在一起——你不需要在多个页面之间反复切换，就能获得从赛事浏览到参与讨论的连贯体验。
+        </p>
+
+        <p>
+            它并非试图包罗万象，而是围绕“快速识别”这个想法做了几件具体的事：页面结构清晰，重点内容被放在显眼的位置；导航系统直白，没有堆砌多余的功能；信息卡片使用统一的视觉语言，让用户扫一眼就能判断当前模块的用途。对于习惯先确认“这里能做什么”再决定是否深入的人来说，这样的设计显然更友好。
+        </p>
+
+        <h2>几个值得留意的特点</h2>
+
+        <ul class="feature-grid">
+            <li>
+                <strong>信息层次分明</strong>
+                <span class="desc">—— 首页将热门赛事、即时比分、最新资讯分栏展示，减少不必要的跳转。</span>
+            </li>
+            <li>
+                <strong>轻量化的交互</strong>
+                <span class="desc">—— 页面响应快速，操作反馈直接，不强迫用户注册即可浏览大部分内容。</span>
+            </li>
+            <li>
+                <strong>关注实用功能</strong>
+                <span class="desc">—— 例如赛程筛选、队伍战绩对比、历史数据查询，都保持简洁的入口。</span>
+            </li>
+            <li>
+                <strong>同一账户，多端同步</strong>
+                <span class="desc">—— 登录后收藏的赛事、关注的队伍可在不同设备上保持同步，省去重复设置的麻烦。</span>
+            </li>
+        </ul>
+
+        <div class="scene-note">
+            <em>一个常见的场景</em>：周末晚上你想快速确认几场焦点比赛的开始时间，同时看看关键球员的近期数据。打开<a href="https://zh-ssl-xksports.com">星空体育app</a>，首页的上半部分直接列出了当天的重要赛事，点击任意一场即可展开简明的数据面板——不必先翻过好几屏广告或热门推荐。这种“直达内容”的思路，让使用过程变得干净利落。
+        </div>
+
+        <h2>关于用途的一些说明</h2>
+        <p>
+            这个网站主要面向两类访问者：一是想快速获取赛事动态的普通体育迷，二是需要整理和分析比赛数据的研究型用户。它并不试图成为最大的体育门户，而是希望在自己的范围内做到清晰、好用。所有公开信息均基于官方数据源，页面也没有嵌入夸张的营销弹窗或诱导性按钮。
+        </p>
+        <p>
+            如果你只是偶尔看看比分，或是想找一个没有过多干扰的体育信息聚合页，那么不妨试一下。它不会承诺“改变你看球的方式”，但或许能让查找信息这件事变得省心一点。
+        </p>
+
+        <!-- 极简 FAQ 摘要 -->
+        <dl class="faq-mini">
+            <dt>这个网站需要注册才能浏览吗？</dt>
+            <dd>不需要。大部分内容（赛程、比分、资讯）对访客开放。只有收藏、评论等互动功能需要登录。</dd>
+            <dt>移动端体验如何？</dt>
+            <dd>网站针对手机屏幕做了适配，排版、按钮大小都经过调整，用手机浏览器打开即可正常使用。</dd>
+            <dt>数据更新频率是多久？</dt>
+            <dd>实时比分和赛程信息每隔几分钟同步一次，非直播时段的数据每日更新。</dd>
+        </dl>
+
+        <div class="closing">
+            <p>一个以清晰为目标的体育信息站点 —— <a href="https://zh-ssl-xksports.com">星空体育app</a></p>
+            <p style="margin-top:0.8rem; font-size:0.8rem; color:#918b85;">简洁 · 克制 · 专注于内容本身</p>
+        </div>
+
+    </div>
+</body>
+</html>
